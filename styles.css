@@ -67,23 +67,24 @@ main{
 .main-circle p,
 .main-1 h3{
     color: var(--neutral-clr-3);
+    letter-spacing: 1.5px;
 }
 .main-2{
     position: relative;
     left: -5%;
-    
-    padding: 1.5rem 2rem 2.2rem 7rem;
+    padding: 3.5rem 2rem 3.5rem 7rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
     border-radius: 20px;
     box-shadow: 0px 26px 41px rgba(68, 64, 58, 0.2);
     /* text-align: center; */
-    color: black;
+    color:var(--neutral-clr-4) ;
 }
+
 @media(max-width:586px){
     .main-2{
-        padding: 5rem 3.5rem 3.4rem 3.7rem;
+        padding: 5rem 3.2rem 3.4rem 3.4rem;
         left: 0;
         top: -4rem;
     }
@@ -96,25 +97,26 @@ main{
 .summary-cont {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-
+    gap: 1rem;
 }
 .records{
     display: flex;
+    align-items: center;
     gap: 3rem;
-    padding: 0.4rem 0rem;
-    width: 260px;
-    border-radius: 6px;
-    border: 2px solid black;
+    padding: 0.5rem 1rem;
+    width: 250px;
+    border-radius: 8px;
+    
 }
 .records-flex{
     display: flex;
+    align-items: center;
     gap: .5rem;
 }
 button{
     position: relative;
-    left: -2%;
-    padding: 0.7rem 6.5rem;
+    left: 2%;
+    padding: 0.5rem 6.5rem;
     background: var(--neutral-clr-4);
     font-size: 16px;
     color: white;
@@ -126,27 +128,33 @@ button{
 button:hover{
     background: var(--gradient-crl-2);
 }
-/* .red{
-    background-color: var(--primary-clra);
-    opacity: 0.5;
-    color: red ;
+.red{
+    background: #FFF6F5;
 }
 .orange{
-    background-color: var(--primary-clrb);
-    opacity: 0.2;
+  background: #FFFBF2;
 }
 .green{
-    background-color:var(--primary-clrc);
-    opacity: 0.2;
-    
+   background: #F2FBFA;
 }
 .blue{
-    background-color: var(--primary-clrd);
-    opacity: 0.2;
-} */
+   background: #F3F3FD;
+}
 .adjust{
     padding-left: 15px;
 }
 .text-spec{
     color: var(--neutral-clr-3);
+}
+.text-1{
+  color: var(--primary-clra);  
+}
+.text-2{
+    color: var(--primary-clrb);
+}
+.text-3{
+    color: var(--primary-clrc);
+}
+.text-4{
+    color: var(--primary-clrd);
 }
